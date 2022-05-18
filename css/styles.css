@@ -1,4 +1,5 @@
 @import url('melodrama.css');
+@import url('clash-display.css');
 
 * {
   box-sizing: border-box;
@@ -55,6 +56,7 @@ img {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  z-index: 9999;
 }
 
 .navbar a {
@@ -89,7 +91,7 @@ img {
 /* header */
 
 .hero {
-  background: url(/media/3standing.jpg) no-repeat center center/cover;
+  background: url(/media/band.jpg) no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: aliceblue;
@@ -106,13 +108,13 @@ img {
 }
 
 .hero .content h1 {
-  font-family: 'Melodrama-Variable';
+  font-family: 'ClashDisplay-Variable';
   font-size: 80px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .hero .content p {
-  font-family: 'Melodrama-Variable';
+  font-family: 'ClashDisplay-Variable';
   font-weight: 300;
   font-size: 23px;
   max-width: 600px;
@@ -126,11 +128,11 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, .6);
+  background: rgba(0, 0, 0, .4);
 }
 
 .hero * {
-  z-index: 10;
+  z-index: 0;
 }
 
 /* Icons */
