@@ -5,50 +5,86 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>The Trivergents Official website</title>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="css/utilities.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+
         <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
             rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
         />
     </head>
-    <body>
-        <header>
-            <a href="#"
-                ><img
-                    src="media/Trivergents Logo Purple.png"
-                    alt=""
-                    class="logo"
-            /></a>
-
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Tour</a></li>
-                    <li>
-                        <a href="#"
-                            ><button class="round-btn">Contact</button></a
-                        >
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section class="banner-area">
-            <div class="text">
-                <h1>THE TRIVERGENTS</h1>
-                <h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
-                    fuga!
-                </h2>
-                <a href="#"><button class="round-btn">Bookings</button></a>
+    <body id="home">
+        <header class="hero">
+            <div id="navbar" class="navbar">
+                <img src="media/Trivergents Logo Purple.png" class="logo" />
+                <nav>
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#band">ABOUT</a></li>
+                        <li><a href="#gigs">TOUR</a></li>
+                        <li><a class="btn" href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
             </div>
-        </section>
-        <!-- <section>
-            <div class="band-members"></div>
-        </section> -->
+
+            <div class="content">
+                <h1>The Trivergents</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Architecto, impedit?
+                </p>
+                <a href="#contact" class="btn"
+                    ></i>BOOKINGS</a
+                >
+            </div>
+        </header>
+        <main>
+            <section id="band" class="icons bg-light">
+                <div class="flex-items">
+                    <div>
+                        <img src="/media/Michal.jpg" alt="michal">
+                        <h3>Michal Sobkowiak</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reprehenderit id cum quasi culpa aliquam nihil quis tenetur perspiciatis exercitationem.</p>
+                    </div>
+                    <div>
+                        <img src="/media/Dean.jpg" alt="michal">
+                        <h3>Dean Thompson</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reprehenderit id cum quasi culpa aliquam nihil quis tenetur perspiciatis exercitationem.</p>
+                    </div>
+                    <div>
+                        <img src="/media/Danny.jpg" alt="michal">
+                        <h3>Danny Stewart</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reprehenderit id cum quasi culpa aliquam nihil quis tenetur perspiciatis exercitationem.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="flex-columns">
+                <div class="row">
+                    <div class="column">
+                        <div class="column-1">
+                            <img src="/media/Dean.jpg" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-2">
+                            <h4>Drums</h4>
+                            <h2>Dean Thompson</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis velit, doloremque debitis laborum odio harum libero modi quisquam tempora alias a sed adipisci? Numquam praesentium quam perspiciatis ullam saepe, sapiente laudantium ex doloribus, consequatur dignissimos reprehenderit laboriosam eius itaque eveniet?</p>
+                            <a href="#" class="btn btn-outline">Dean's Website</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            
+        </main>
     </body>
 </html>
