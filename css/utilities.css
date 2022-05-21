@@ -30,8 +30,8 @@
 .flex-columns .column {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+    /* flex-basis: 100%; */
+    flex: 1 auto;
 }
 
 .flex-columns .column .column-2 {
@@ -70,5 +70,9 @@
 
 .flex-columns p {
     margin: 20px 0 ;
+}
+
+.band-member {
+    
 }
 
