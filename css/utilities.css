@@ -1,29 +1,16 @@
-.text-primary {
-    color: aliceblue;
-}
-
-.text-secondary {
-    color: ruby;
-}
 
 /* button */
 .btn {
     cursor: pointer;
     display: inline-block;
     padding: 10px 30px;
-    color: aliceblue;
-    background-color: purple;
+    background-color: #4a4a94;
     border: none;
     border-radius: 5px;
 }
 
 .btn:hover {
-    background-color: plum;
-    color: black;
-}
-
-.hero::before {
-    content: 'Hello';
+    background-color: #282890;
 }
 
 .flex-items {
@@ -64,7 +51,7 @@
 
 .flex-columns .column .column-2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     padding: 30px;
