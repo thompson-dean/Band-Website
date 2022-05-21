@@ -5,6 +5,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 
 body {
@@ -179,7 +180,7 @@ header {
     margin: 5px 10px;
   
   }
-  
+
   .flex-items {
     flex-direction: column;
   }
