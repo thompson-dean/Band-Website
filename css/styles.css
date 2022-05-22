@@ -198,11 +198,27 @@ padding: 30px;
   justify-content: center;
 }
 
+.contact h1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 70px;
+}
+
 @media(max-width:1080px) {
   .navbar {
     flex-direction: column;
     height: 130px;
   }
+
+  body {
+    font-size: 26px;
+  }
+
+  .hero .content h1 {
+    font-size: 30px;
+  }
+
+  
 
   .flex-items {
     flex-direction: column;
@@ -211,11 +227,11 @@ padding: 30px;
 
 @media(max-width:660px) {
   body {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .hero .content h1 {
-    font-size: 25px;
+    font-size: 28px;
   }
 
   .navbar {
