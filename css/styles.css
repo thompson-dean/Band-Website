@@ -157,6 +157,10 @@ header {
   padding: 30px;
 }
 
+.band-member {
+  padding: 10px;
+}
+
 .gigs {
 padding: 30px;
 }
@@ -217,9 +221,6 @@ padding: 30px;
   .hero .content h1 {
     font-size: 30px;
   }
-
-  
-
   .flex-items {
     flex-direction: column;
   }
@@ -244,7 +245,7 @@ padding: 30px;
 
   .navbar a {
     padding: 10px 10px;
-    margin: 5px 10px;
+    margin: 5px 2px;
   
   }
 
