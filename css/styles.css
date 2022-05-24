@@ -129,6 +129,21 @@ header {
   margin: 20px 0 30px;
 }
 
+.play-button {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.play-button img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
 /* Icons */
 .flex-items {
   padding: 20px;
@@ -215,11 +230,14 @@ padding: 30px;
 @media(max-width:1080px) {
   .navbar {
     flex-direction: column;
-    height: 130px;
+    height: 120px;
   }
 
   body {
     font-size: 26px;
+  }
+  .logo {
+    width: 350px;
   }
 
   .navbar a {
