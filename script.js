@@ -1,3 +1,13 @@
+//Handle Animation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+});
+
 const mySong = document.getElementById("mySong");
 const icon = document.getElementById("icon");
 
@@ -13,13 +23,5 @@ icon.onclick = function() {
 
 }
 
-//Handle Animation
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth"
-        });
-    });
-});
+
 
