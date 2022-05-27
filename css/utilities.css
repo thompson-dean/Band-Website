@@ -73,16 +73,4 @@
     margin: 20px 0 ;
 }
 
-/* Music Player */
-
-.box {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-}
-
-.img-container img {
-    width: 100px;
-}
 
