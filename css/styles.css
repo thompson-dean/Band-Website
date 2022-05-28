@@ -166,11 +166,26 @@ header {
   font-size: 20px;
 }
 
-.about {
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about h1{
   font-weight: 600;
   text-align: center;
   font-size: 70px;
-  padding: 30px;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sponsors img {
+  width: 50px;
+  object-fit: cover;
 }
 
 .band-member {
@@ -179,6 +194,37 @@ header {
 
 .band-member p {
   text-align: left;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.profile-img {
+  width: 50%;
+  object-fit: cover;
+}
+
+
+
+.sponsors img {
+width: 100px;
+margin: 20px 30px;
+}
+
+.member-info {
+  padding: 30px;
+}
+
+.member-info p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.member-info h4 {
+  font-weight: 550;
 }
 
 .gigs {
@@ -228,6 +274,12 @@ padding: 30px;
   font-size: 70px;
 }
 
+.contact h2  {
+  padding: 0 50px;
+}
+
+
+
 @media(max-width:1080px) {
   .navbar {
     flex-direction: column;
@@ -250,8 +302,16 @@ padding: 30px;
   .hero .content h1 {
     font-size: 30px;
   }
-  .flex-items {
+  .about-container {
     flex-direction: column;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  .profile-img {
+    width: 100%;
   }
   }
 

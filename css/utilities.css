@@ -15,6 +15,11 @@
     background-color: #282890;
 }
 
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-items {
     display: flex;
     text-align: center;
