@@ -314,13 +314,17 @@ padding: 30px;
   background-color: #4a4a9455;
   border-radius: 20px 20px 0 0;
   margin: 0 30px;
+  padding: 0 30px;
   height: 200px;
 }
 
 .doya {
+
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 10px;
+  top: 10px;
 
 }
 
@@ -331,7 +335,15 @@ padding: 30px;
 .SNS-icons {
   display: flex;
   justify-content: space-between;
+  height: 100px;
 }
+
+.SNS-icons i {
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
+
 
 @media(max-width:1080px) {
   .navbar {

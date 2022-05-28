@@ -21,7 +21,7 @@ icon.onclick = function() {
         icon.src = "media/Play Button Png.png";
     }
 
-}
+};
 
 
 
