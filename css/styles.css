@@ -204,6 +204,8 @@ header {
 
 }
 
+
+
 .profile-img {
   width: 50%;
   object-fit: cover;
@@ -221,8 +223,10 @@ margin: 20px 30px;
 }
 
 .member-info p {
-  font-size: 20px;
+  font-size: 22px;
   margin: 10px 0;
+  color: #b1b1ed;
+
 }
 
 .member-info h4 {
@@ -271,10 +275,26 @@ padding: 30px;
 }
 
 .contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 30px;
   padding: 30px;
   border-radius: 20px;
   background-color: #4a4a9455;
+}
+
+.contact-content p {
+  word-break: break-all;
+}
+
+.big-icon {
+  margin: 0 50px 0 0;
+  font-size: 100px;
+}
+
+.small-icons i {
+  padding: 10px;
 }
 
 .contact h1 {
@@ -369,6 +389,11 @@ padding: 30px;
     padding: 5px 10px;
     margin: 5px 2px;
   
+  }
+
+  .big-icon {
+    margin: 10px 10px 0 0;
+    font-size: 30px;
   }
 }
 
