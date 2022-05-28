@@ -46,6 +46,8 @@ header {
   width: 100%;
 }
 
+
+
 .logo {
   width: 450px;
   padding: 15px;
@@ -268,17 +270,48 @@ padding: 30px;
   justify-content: center;
 }
 
+.contact-content {
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #4a4a9455;
+}
+
 .contact h1 {
   font-weight: 600;
   text-align: center;
   font-size: 70px;
 }
 
-.contact h2  {
-  padding: 0 50px;
+
+
+
+.sponsors-footer {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a4a9455;
+  border-radius: 20px 20px 0 0;
+  margin: 0 30px;
+  height: 200px;
 }
 
+.doya {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 
+}
+
+.doya img {
+  width: 100px;
+}
+
+.SNS-icons {
+  display: flex;
+  justify-content: space-between;
+}
 
 @media(max-width:1080px) {
   .navbar {
