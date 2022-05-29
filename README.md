@@ -1,8 +1,9 @@
 # The Trivergents Band Website
 
-Band Website built for The Trivergents.
+Band Website built for The Trivergents. Check it out! www.trivergents.com
+
 This website uses HTML, CSS, and Javascript to create an ultra modern website.
-The fonts used were taken partly from Google Font and partly from fontshare.com. 
+The fonts used were taken from Google Fonts and from fontshare.com. All icons used were from font awesome. 
 
 *Screenshot*
 
