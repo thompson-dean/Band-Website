@@ -1,3 +1,6 @@
 # The Trivergents Band Website
 
-Running through some ideas for our band website.
+Band Website built for The Trivergents.
+This website uses HTML, CSS, and Javascript. 
+
+
