@@ -404,8 +404,27 @@ padding: 30px;
   }
 
   .big-icon {
-    margin: 10px 10px 0 0;
+    margin: 10px;
     font-size: 30px;
+  }
+
+  .doya {
+    font-size: 15px;
+  }
+
+  .doya img {
+    width: 50px;
+  }
+
+  .SNS-icons {
+    height: 60px;
+    align-items: flex-start;
+  }
+
+  .SNS-icons i {
+    padding: 2px;
+    margin: 2px;
+    font-size: 15px;
   }
 }
 
