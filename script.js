@@ -1,4 +1,13 @@
-//Handle Animation
+window.onload = function () {
+    const menu_btn = document.querySelector('.hamburger')
+    const mobile_menu = document.querySelector('.mobile-nav')
+
+    menu_btn.addEventListener('click', function () {
+        menu_btn.classList.toggle('is-active')
+        mobile_menu.classList.toggle('is-active')
+    });
+
+    //Handle Animation
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function(e) {
         e.preventDefault();
@@ -7,21 +16,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+}
 
-const mySong = document.getElementById("mySong");
-const icon = document.getElementById("icon");
 
-//Handle Music Player
-icon.onclick = function() {
-    if(mySong.paused) {
-        mySong.play();
-        icon.src = "media/White Pause Button Symbol Png.png";
-    } else {
-        mySong.pause();
-        icon.src = "media/Play Button Png.png";
-    }
 
-};
+
+
+
 
 
 

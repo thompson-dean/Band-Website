@@ -41,7 +41,7 @@ img {
 }
 
 header {
-  z-index: 9999;
+  z-index: 97;
   position: fixed;
   width: 100%;
 }
@@ -51,6 +51,7 @@ header {
 .logo {
   width: 450px;
   padding: 15px;
+  cursor: pointer;
 }
 
 /* Nav Bar */
@@ -69,6 +70,10 @@ header {
   padding: 10px 20px;
   margin: 0 5px;
 
+}
+
+.hamburger {
+  display: none;
 }
 
 .hua {
@@ -132,20 +137,18 @@ header {
   margin: 20px 0 30px;
 }
 
-.play-button {
+.bookings {
+  position: relative;
   display: flex;
-  align-items: center;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
-.play-button img {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
+#top-icons {
+  padding: 10px;
 
+}
 
 /* Icons */
 .flex-items {
@@ -158,16 +161,6 @@ header {
   font-family: 'Melodrama-Variable'
 }
 
-.flex-items img {
-
-  padding: 0 10px;
-  border-radius: 20px;
-}
-
-.flex-items p {
-  font-size: 20px;
-}
-
 .about-container {
   display: flex;
   flex-direction: column;
@@ -177,6 +170,17 @@ header {
   font-weight: 600;
   text-align: center;
   font-size: 70px;
+}
+
+.media h1{
+  font-weight: 600;
+  text-align: center;
+  font-size: 70px;
+}
+
+.media h4 {
+  text-align: center;
+  font-weight: 500;
 }
 
 .sponsors {
@@ -201,17 +205,26 @@ header {
 .about-container {
   display: flex;
   flex-direction: row;
-
 }
-
-
+.video-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .profile-img {
   width: 50%;
   object-fit: cover;
 }
-
-
 
 .sponsors img {
 width: 100px;
@@ -303,9 +316,6 @@ padding: 30px;
   font-size: 70px;
 }
 
-
-
-
 .sponsors-footer {
   font-size: 18px;
   display: flex;
@@ -355,17 +365,16 @@ padding: 30px;
     font-size: 26px;
   }
   .logo {
-    width: 350px;
+    width: 300px;
   }
 
   .navbar a {
     padding: 5px 10px;
     margin: 5px 5px;
-  
   }
 
   .hero .content h1 {
-    font-size: 30px;
+    font-size: 42px;
   }
   .about-container {
     flex-direction: column;
@@ -380,27 +389,106 @@ padding: 30px;
   }
   }
 
-@media(max-width:660px) {
+@media(max-width:530px) {
+
   body {
     font-size: 24px;
   }
 
-  .hero .content h1 {
-    font-size: 28px;
-  }
-
   .navbar {
     margin: 0;
+    padding-left: 0;
+    padding-right: 16px;
+    height: 55px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .navbar nav {
+    display: none;
+  }
+
+  .hamburger {
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+  }
+
+  .hamburger .bar, .hamburger:after, .hamburger:before {
+    content: '';
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    margin: 6px 0px;
+    transition: 0.4s;
+  }
+
+  .hamburger.is-active:before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+  }
+
+  .hamburger.is-active:after {
+    transform: rotate(45deg) translate(-8px, -7px);
+  }
+
+  .hamburger.is-active .bar {
+    opacity: 0;
+  }
+
+  .mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    background-color: #4a4a9455;
+    margin-top: 50px;
+    transition: 0.4s;
+  }
+
+  .mobile-nav.is-active {
+    left: 0;
+  }
+
+  .mobile-nav a {
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 12px 16px;
+    background-color: #4a4a94;
+  }
+
+  .mobile-nav a:hover {
+    background-color: #4a4a9455;
   }
 
   .logo {
-    width: 350px;
+    padding-top: 6px;
+    width: 250px;
   }
 
-  .navbar a {
-    padding: 5px 10px;
-    margin: 5px 2px;
-  
+  .hero .content h1 {
+    font-size: 32px;
+  }
+
+  .hero .content p {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 6px 12px;
   }
 
   .big-icon {

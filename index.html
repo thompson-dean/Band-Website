@@ -22,42 +22,65 @@
     <body id="home">
         <header >
             <div id="navbar" class="navbar">
-                <img src="media/Trivergents Logo Purple.png" class="logo" />
+                <a href="#home" class="logo">
+                    <img src="media/Trivergents Logo Purple.png"/>
+                </a>
                 <nav>
                     <ul>
                         <li><a href="#home" class="hua">Home</a></li>
                         <li><a href="#about" class="hua">About</a></li>
+                        <li><a href="#media" class="hua">Media</a></li>
                         <li><a href="#gigs" class="hua">Tour</a></li>
                         <li><a class="btn" href="#contact">Contact</a></li>
                         
                     </ul>
                 </nav>
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
             </div>
-
-            
         </header>
+       <nav class="mobile-nav">
+            <a href="#home" class="hua">Home</a>
+            <a href="#about" class="hua">About</a>
+            <a href="#media" class="hua">Media</a>
+            <a href="#gigs" class="hua">Tour</a>
+            <a href="#contact" class="hua">Contact</a>
+            <a id="top-icons" href="https://www.youtube.com/@trivergents7485">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a id="top-icons" href="https://www.facebook.com/trivergents">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+       </nav>
 
         <main>
-
             <!-- HERO -->
             <section class="hero">
-             
                 <div class="content">
                     <h1>The Tri&shy;vergents</h1>
                     <p>
-                        A meeting of 3 minds; The Trivergents blend classical, jazz, funk, RnB, fusion, and world beats.
+                        A meeting of 3 minds - a blend of classical, jazz, funk, RnB, fusion, and world beats.
                     </p>
-                    <a class="btn" href="#contact">Bookings</a>
+                    <div class="bookings">
+                        <a class="btn" href="#contact">Bookings</a>
+                        <div class="top-icons">
+                            <a id="top-icons" href="https://www.youtube.com/@trivergents7485">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a id="top-icons" href="https://www.facebook.com/trivergents">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                
-          
             </section>
 
             <!-- BAND MEMBER INFORMATION -->
             <section class="about" id="about">
             <h1>About</h1>
             <div class="about-container">
-                <img class="profile-img" src="media/Michal.jpg" alt="michal">
+                <img class="profile-img" src="media/michal-alley.JPG" alt="michal">
                 <div class="member-info">
                     <h4>Piano</h4>
                     <h3>Michal Sobkowiak</h3>
@@ -73,7 +96,6 @@
                 </div>
             </div>
             <div class="about-container reverse">
-                
                 <div class="member-info">
                     <h4>Bass</h4>
                     <h3>Danny Stewart</h3>
@@ -90,22 +112,48 @@
                         </div>
                         <a class="btn" href="https://bassjapandirect.com/index.html">Danny's Website</a>
                 </div>
-                <img class="profile-img" src="media/Danny.jpg" alt="michal">
-            </div>
-            <div class="about-container">
-                <img class="profile-img" src="media/Dean.jpg" alt="michal">
-                <div class="member-info">
-                    <h4>Drums</h4>
-                    <h3>Dean Thompson</h3>
-                        <p> Dean is first and foremost a percussionist, who spent many years teaching drums and touring Australia as a professional musician playing Jazz and Funk primarily, but also other amalgams of contemporary music, such as, Latin, Electronica and World Music. During his time in Australia he played, cowrote and recorded music with Josue Vilches, and played with the video game jazz cover band The Consouls. Now Dean lives in Tokyo and is gigging with world renowned musicians such as Michal Sobkowiak, Harvey Thompson and David Becker. </p>
-                        <a class="btn" href="https://twitter.com/DeanWThompson">Dean's Website</a>
+                    <img class="profile-img" src="media/danny-alley.JPG" alt="michal">
                 </div>
-            </div>
-        </section>
+                <div class="about-container">
+                    <img class="profile-img" src="media/dean-alley.JPG" alt="michal">
+                    <div class="member-info">
+                        <h4>Drums</h4>
+                        <h3>Dean Thompson</h3>
+                            <p> Dean is first and foremost a percussionist, who spent many years teaching drums and touring Australia as a professional musician playing Jazz and Funk primarily, but also other amalgams of contemporary music, such as, Latin, Electronica and World Music. During his time in Australia he played, cowrote and recorded music with Josue Vilches, and played with the video game jazz cover band The Consouls. Now Dean lives in Tokyo and is gigging with world renowned musicians such as Michal Sobkowiak, Harvey Thompson and David Becker. </p>
+                            <a class="btn" href="https://twitter.com/DeanWThompson">Dean's Website</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MEDIA -->
+            <section class="media" id="media">
+                <h1>Media</h1>
+                <h4>Photos</h4>
+                <div class="about-container">
+                    <img class="profile-img" src="media/bnw-alley.JPG" alt="michal">
+                    <img class="profile-img" src="media/dean-danny-alley.JPG" alt="michal">
+                </div>
+                <div class="about-container">
+                    <img class="profile-img" src="media/michal-alley-miles.JPG" alt="michal">
+                    <img class="profile-img" src="media/all-alley.JPG" alt="michal">
+                </div>
+                <h4>Videos</h4>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bfIrtMSuqZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-container">
+                    <iframe width="100%" height="100vh" src="https://www.youtube.com/embed/ka9x9a73SKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5htwc3RkTlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+
 
             <section id="gigs" class="gigs">
                 <h1>Tour Dates</h1>
                 <ul>
+                    <!-- PLACE UPCOMING GIGS HERE -->
                     <!-- <li>
                         <div class="gig-list">
                             <div class="location-div"> 
@@ -121,8 +169,7 @@
                             
                         </div>
                     </li> -->
-                    
-
+                    <!-- When there are upcoming gigs comment this out -->
                     <li>
                         <div class="gig-list">
                             <div class="location-div"> 
@@ -131,20 +178,27 @@
                                     <p><br> Dates Coming Soon! </p>
                                 </div>
                             </div>
-                            
                         </div>
                     </li>
                 </ul> 
-
                 <h1>Past Dates</h1>
                 <ul>
                     <li>
                         <div class="gig-list">
                             <div class="location-div"> 
+                                <h4>6th <br> Oct </h4>
+                                <div class="location-details">
+                                    <p>Tokyo, Japan<br>Blues Alley</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="gig-list">
+                            <div class="location-div"> 
                                 <h4>22nd <br> May</h4>
                                 <div class="location-details">
-                                    <p>Fukushima, Japan<br> Magie Noir </p>
-                                    
+                                    <p>Fukushima, Japan<br>Magie Noir </p>
                                 </div>
                             </div>
                             
@@ -155,7 +209,7 @@
                             <div class="location-div"> 
                                 <h4>25th <br> March</h4>
                                 <div class="location-details">
-                                    <p>Tokyo, Japan<br> Love, Peace, and Soul Cafe</p>
+                                    <p>Tokyo, Japan<br>Love, Peace, and Soul Cafe</p>
                                     
                                 </div>
                             </div>
@@ -167,11 +221,9 @@
                             <div class="location-div"> 
                                 <h4>19th <br> March</h4>
                                 <div class="location-details">
-                                    <p>Tokyo, Japan<br> Keystone Club</p>
-                                    
+                                    <p>Tokyo, Japan<br>Keystone Club</p>
                                 </div>
                             </div>
-                            
                         </div>
                     </li>
             </section>
@@ -209,7 +261,6 @@
                 
 
             </section>
-
             <footer>
                 <div class="sponsors-footer">
                     <div class="doya">
@@ -243,10 +294,7 @@
                             </a>
                         </div>
                     </div>
-                    
-                    
                 </div>
-
             </footer>
         </main>
         <script src="script.js"></script>
