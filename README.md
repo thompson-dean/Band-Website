@@ -7,5 +7,5 @@ The fonts used were taken from Google Fonts and from fontshare.com. All icons us
 
 *Screenshot*
 
-<img src="https://github.com/thompson-dean/Band-Website/blob/main/screenshot/screencapture-trivergents-2023-03-05-17_53_01" width=50% height=50%> 
+<img src="https://github.com/thompson-dean/Band-Website/blob/main/screenshot/screencapture-trivergents-2023-03-05-17_53_01.png" width=50% height=50%> 
 
