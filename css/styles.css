@@ -356,6 +356,12 @@ padding: 30px;
   font-size: 30px;
 }
 
+.flyer {
+  padding: 64px;
+  width: 50vw;  
+  height: auto; 
+}
+
 
 @media(max-width:1080px) {
   .navbar {
@@ -389,6 +395,12 @@ padding: 30px;
 
   .profile-img {
     width: 100%;
+  }
+
+  .flyer {
+    padding: 64px; 
+    width: 100vw;  
+    height: auto; 
   }
   }
 
