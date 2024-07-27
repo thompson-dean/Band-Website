@@ -249,38 +249,50 @@ margin: 20px 30px;
 }
 
 .gigs {
-padding: 30px;
+  padding: 30px;
 }
 
 .gigs h1 {
   font-weight: 600;
   text-align: center;
   font-size: 70px;
+  margin-bottom: 30px;
 }
 
 .gigs li {
-  margin: 20px;
+  margin: 20px 0;
   border-bottom: 2px solid white;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .gig-list {
   display: flex;
   justify-content: space-between;
-}
-
-.location-details {
-  padding: 0 30px;
-}
-
-.location-details p {
-  margin: 0;
-
+  align-items: center;
 }
 
 .location-div {
   display: flex;
   align-items: center;
+}
+
+.date-group {
+  display: flex;
+  margin-right: 30px;
+}
+
+.date-group h4 {
+  text-align: left;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+.year {
+  color: #888; /* Lighter color for the year */
+}
+
+.location-details {
+  font-size: 1.1em;
 }
 
 .info-btn {
