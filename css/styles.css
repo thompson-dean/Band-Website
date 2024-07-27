@@ -333,8 +333,8 @@ margin: 20px 30px;
 .sponsors-footer {
   font-size: 18px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: top;
   background-color: #4a4a9455;
   border-radius: 20px 20px 0 0;
   margin: 0 30px;
@@ -416,7 +416,7 @@ margin: 20px 30px;
   }
   }
 
-@media(max-width:600px) {
+@media(max-width:650px) {
   body {
     font-size: 24px;
   }
@@ -523,11 +523,20 @@ margin: 20px 30px;
 
   .btn {
     padding: 6px 12px;
+    font-size: small;
   }
 
   .big-icon {
     margin: 10px;
     font-size: 30px;
+  }
+
+  .gigs {
+    padding: 8px
+  }
+
+  .location-div {
+    font-size: medium;
   }
 
   .doya {
